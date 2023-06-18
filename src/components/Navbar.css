@@ -12,10 +12,12 @@ nav a {
   color: #000;
   font-size: 1.2em;
   transition: ease 0.2s;
+  border: 1px solid #000;
 }
 
 nav a:hover {
   color: #ccc;
+  border: 1px solid #723;
 }
 
 .active {

@@ -1,29 +1,19 @@
 {
-  "cars": [
+  "products": [
     {
       "id": 1,
-      "name": "Astra",
-      "price": 25000
+      "name": "Lápis",
+      "price": 2.5
     },
     {
       "id": 2,
-      "name": "Celta",
-      "price": 35000
+      "name": "Teclado",
+      "price": 35
     },
     {
       "id": 3,
-      "name": "Corsa",
-      "price": 40000
-    },
-    {
-      "id": 4,
-      "name": "Gol",
-      "price": 28000
-    },
-    {
-      "id": 5,
-      "name": "Lancer",
-      "price": 45000
+      "name": "Monitor",
+      "price": 400
     }
   ]
 }
