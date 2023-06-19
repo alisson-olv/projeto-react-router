@@ -17,6 +17,7 @@ const Home = () => {
         Produtos
       </h3>
       {error && <p>Houve um problema ao carregar os dados.</p>}
+      {loading && <p>Carregando...</p>}
       {items && items.map((item) => (
         <div key={item.id}>
           <h4>
@@ -25,6 +26,7 @@ const Home = () => {
           <p>
             R$ {item.price}
           </p>
+          <Link to={`/products/${item.id}`}>Detalhes</Link>
         </div>
       ))}
     </div>
